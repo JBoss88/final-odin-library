@@ -1,7 +1,7 @@
 const newBookBtn = document.querySelector('#new-book-btn');
+const formData = document.querySelector('#form-data');
 const submit = document.querySelector('#submit');
 const libraryContainer = document.querySelector('#library');
-const formData = document.querySelector('#form-data');
 
 newBookBtn.addEventListener('click', () => {
     const removeMain = document.querySelector('.remove');

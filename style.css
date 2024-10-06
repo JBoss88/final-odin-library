@@ -37,6 +37,12 @@ h1 {
     font-size: 60px;
 }
 
+.new {
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+    text-align: center;
+}
+
 label {
     font-size: 30px;
     color: rgb(0, 0, 0);
@@ -76,4 +82,14 @@ p {
     color: rgb(127, 127, 235);
     font-size: 20px;
     padding: 10px;
+}
+
+button {
+    font-size: 15px;
+}
+
+#submit:hover,
+#new-book-btn:hover {
+    background-color: rgb(60, 24, 24);
+    color: white;
 }
